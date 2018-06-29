@@ -7,6 +7,5 @@ namespace GitMVCApp.Models
 {
     public class ignore
     {
-        //class not ot be tracked in git
     }
 }
