@@ -15,11 +15,16 @@ namespace GitMVCApp.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult AboutZuzeka()
         {
-            ViewData["Message"] = "Your application description page.";
+            MsZuzeka z = new MsZuzeka();
+            z.Name = "Zuzeka";
+            z.Surname = "Zimba";
+            z.Age = "25";
+            z.weight = 52;
+            z.favouriteQuote = "Great things never come from comfort zones";
 
-            return View();
+            return View(z);
         }
 
         public IActionResult Contact()
