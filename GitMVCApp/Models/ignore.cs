@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GitMVCApp.Models
 {
-    public class ignore
+    public class Ignore
     {
     }
 }

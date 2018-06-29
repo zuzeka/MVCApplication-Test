@@ -32,7 +32,7 @@ bld/
 [Bb]uild[Ll]og.*
 
 #ignore a single file
-ignore.class
+Ignore.class
 
 # NUNIT
 *.VisualState.xml
